@@ -132,6 +132,9 @@ export default function Nav() {
               onClick={(e) => {
                 e.preventDefault();
                 handleLocation("about");
+                if (document.activeElement instanceof HTMLElement) {
+                  document.activeElement.blur();
+                }
               }}
             >
               About
@@ -143,6 +146,9 @@ export default function Nav() {
               onClick={(e) => {
                 e.preventDefault();
                 handleLocation("projects");
+                if (document.activeElement instanceof HTMLElement) {
+                  document.activeElement.blur();
+                }
               }}
             >
               Projects
@@ -155,6 +161,9 @@ export default function Nav() {
               onClick={(e) => {
                 e.preventDefault();
                 handleLocation("contact");
+                if (document.activeElement instanceof HTMLElement) {
+                  document.activeElement.blur();
+                }
               }}
             >
               Contact
