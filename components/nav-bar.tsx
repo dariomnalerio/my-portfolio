@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { AiOutlineMenu } from "react-icons/ai";
-import picture from "@/public/assets/me.png";
+import picture from "@/public/assets/me.webp";
 import { ModeToggle } from "./ui/mode-toggle";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
