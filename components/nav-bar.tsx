@@ -127,18 +127,36 @@ export default function Nav() {
             align="end"
             className="z-[999] bg-secondary border shadow-lg w-32 p-3"
           >
-            <DropdownMenuItem className="text-[14px] pb-1 hover:text-softblue">
+            <DropdownMenuItem
+              className="text-[14px] pb-1 hover:text-softblue"
+              onClick={(e) => {
+                e.preventDefault();
+                handleLocation("about");
+              }}
+            >
               About
             </DropdownMenuItem>
             <DropdownMenuSeparator />
 
-            <DropdownMenuItem className="text-[14px] pb-1 hover:text-softblue">
+            <DropdownMenuItem
+              className="text-[14px] pb-1 hover:text-softblue"
+              onClick={(e) => {
+                e.preventDefault();
+                handleLocation("projects");
+              }}
+            >
               Projects
             </DropdownMenuItem>
 
             <DropdownMenuSeparator />
 
-            <DropdownMenuItem className="text-[14px] pb-1 hover:text-softblue">
+            <DropdownMenuItem
+              className="text-[14px] pb-1 hover:text-softblue"
+              onClick={(e) => {
+                e.preventDefault();
+                handleLocation("contact");
+              }}
+            >
               Contact
             </DropdownMenuItem>
           </DropdownMenuContent>

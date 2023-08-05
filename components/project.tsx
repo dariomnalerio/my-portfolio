@@ -61,6 +61,17 @@ export default function Project(props: ProjectProps) {
               </Link>
             </Button>
           )}
+
+          {props.demo && (
+            <Button
+              asChild
+              className="uppercase bg-softblue hover:bg-softblue hover:opacity-90 hover:-translate-y-0.5"
+            >
+              <Link href={props.demo ? props.demo : "#"} target="_blank">
+                <span className="ml-1">Demo</span>
+              </Link>
+            </Button>
+          )}
         </div>
       </div>
     </>
