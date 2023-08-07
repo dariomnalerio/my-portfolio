@@ -1,7 +1,7 @@
 
 # Portfolio website
 
-Simple portfoliio website to showcase some of the skills I have gained throughout my time as a developer, as well as some cool projects (:
+Simple portfolio website to showcase some of the skills I have gained throughout my time as a developer, as well as some cool projects (:
 
 ## Demo
 [Project Demo](https://dmn-portfolio.vercel.app/)
